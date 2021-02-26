@@ -1,0 +1,25 @@
+{
+  "name": "rollup-tj",
+  "version": "1.0.0",
+  "description": "just a demo of rollupjs",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.39.1"
+  },
+  "scripts": {
+    "dev": "rimraf dist && rollup main.js --file dist/bundle.js --format iife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tangjj1996/rollup-tj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tangjj1996/rollup-tj/issues"
+  },
+  "homepage": "https://github.com/Tangjj1996/rollup-tj#readme"
+}
