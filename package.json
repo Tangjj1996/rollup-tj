@@ -8,7 +8,7 @@
     "rollup": "^2.39.1"
   },
   "scripts": {
-    "dev": "rimraf dist && rollup main.js --file dist/bundle.js --format iife"
+    "dev": "rimraf dist && rollup main.js --file dist/bundle.js --format cjs"
   },
   "repository": {
     "type": "git",

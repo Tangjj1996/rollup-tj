@@ -1,5 +1,5 @@
-const utils = require('utils')
+import fooGlobal, { a, foo } from './src/foo'
 
-const query = 'Rollup'
+console.log(a)
 
-utils.ajax('https://api.example.com?search=' + query).then(res => console.log(res))
+console.log(111, fooGlobal, typeof foo)
